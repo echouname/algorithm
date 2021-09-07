@@ -1,4 +1,4 @@
-package com.nk.practice.leetcode.top100;
+package com.nk.practice.leetcode.top100.mid;
 
 /**
  * 给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。
@@ -29,16 +29,30 @@ public class AddTwoSum {
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode listNode = new ListNode();
-        while (l1 != null || l2 != null) {
-        //TODO
+        ListNode first = new ListNode();
+        ListNode curr = first;
+        int up = 0;
+        while (l1 != null || l2 != null || up != 0) {
+            int sum = 0;
             if (l1 != null) {
-
+                sum += l1.val;
+                l1 = l1.next;
             }
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+            sum += up;
+            up = sum / 10;
+            ListNode listNode = new ListNode(sum % 10);
+            curr.next = listNode;
+            curr = listNode;
         }
-        return null;
+        return first.next;
     }
 
+    // 7->0->8
+    // 1
     public static void main(String[] args) {
         //输入：l1 = [2,4,3], l2 = [5,6,4]
         //输出：[7,0,8]

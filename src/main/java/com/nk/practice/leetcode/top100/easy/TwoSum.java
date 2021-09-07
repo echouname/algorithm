@@ -1,4 +1,4 @@
-package com.nk.practice.leetcode.top100;
+package com.nk.practice.leetcode.top100.easy;
 
 import java.util.*;
 
