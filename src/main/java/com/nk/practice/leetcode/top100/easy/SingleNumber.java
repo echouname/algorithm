@@ -23,7 +23,6 @@ public class SingleNumber {
     }
 
     public static void main(String[] args) {
-        // 分成技术 偶数2中情况
         //你的算法应该具有线性时间复杂度。 你可以不使用额外空间来实现吗？
         //
         //示例 1:
