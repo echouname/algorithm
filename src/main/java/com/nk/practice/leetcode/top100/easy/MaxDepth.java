@@ -1,6 +1,6 @@
 package com.nk.practice.leetcode.top100.easy;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
+import com.nk.practice.leetcode.top100.struct.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

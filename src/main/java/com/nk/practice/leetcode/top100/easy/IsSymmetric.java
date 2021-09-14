@@ -1,5 +1,7 @@
 package com.nk.practice.leetcode.top100.easy;
 
+import com.nk.practice.leetcode.top100.struct.TreeNode;
+
 /**
  * 给定一个二叉树，检查它是否是镜像对称的。
  *

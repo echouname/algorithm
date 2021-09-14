@@ -1,5 +1,7 @@
 package com.nk.practice.leetcode.top100.easy;
 
+import com.nk.practice.leetcode.top100.struct.TreeNode;
+
 /**
  * 翻转一棵二叉树。
  *

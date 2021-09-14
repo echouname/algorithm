@@ -1,6 +1,6 @@
 package com.nk.practice.leetcode.top100.easy;
 
-import java.util.Stack;
+import com.nk.practice.leetcode.top100.struct.ListNode;
 
 /**
  * 给你两个单链表的头节点 headA 和 headB ，请你找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 null 。

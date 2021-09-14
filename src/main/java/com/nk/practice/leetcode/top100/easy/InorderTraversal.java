@@ -1,5 +1,7 @@
 package com.nk.practice.leetcode.top100.easy;
 
+import com.nk.practice.leetcode.top100.struct.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
