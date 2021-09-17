@@ -14,6 +14,8 @@ package com.nk.practice.leetcode.top100.mid;
 public class Search {
 
     public int search(int[] nums, int target) {
+
+
         return -1;
     }
 
